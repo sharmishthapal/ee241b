@@ -1,0 +1,186 @@
+****************************************
+Report : Averaged Power
+	-hierarchy
+	-verbose
+	-nosplit
+Design : MAIN_v3
+Version: G-2012.06
+Date   : Sat Apr 12 18:20:58 2014
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_tt1p05v25c (File: /home/ff/ee241/stdcells/synopsys-32nm/multi_vt/db/saed32hvt_tt1p05v25c.db)
+
+
+Operating Conditions: tt1p05v25c   Library: saed32hvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+Cell               Design       Wire_model  Library       Selection_type
+--------------------------------------------------------------------------------
+                   MAIN_v3      16000       saed32hvt_tt1p05v25c automatic-by-area
+counter1024        up_counter   ForQA       saed32hvt_tt1p05v25c automatic-by-area
+statemthv1         statem_threshold_bits_psi18_bits_sum_psi20 8000 saed32hvt_tt1p05v25c automatic-by-area
+statemthv1/clk_gate_sum_psi_reg SNPS_CLOCK_GATE_HIGH_statem_threshold_bits_psi18_bits_sum_psi20 ForQA saed32hvt_tt1p05v25c automatic-by-area
+NEOMODULE          neo_v2_bits_psi18 8000   saed32hvt_tt1p05v25c automatic-by-area
+MEM                mem_v3       16000       saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_20_ SNPS_CLOCK_GATE_HIGH_mem_v3_22 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_21_ SNPS_CLOCK_GATE_HIGH_mem_v3_23 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_22_ SNPS_CLOCK_GATE_HIGH_mem_v3_24 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_23_ SNPS_CLOCK_GATE_HIGH_mem_v3_25 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_24_ SNPS_CLOCK_GATE_HIGH_mem_v3_26 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_25_ SNPS_CLOCK_GATE_HIGH_mem_v3_27 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_26_ SNPS_CLOCK_GATE_HIGH_mem_v3_28 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_27_ SNPS_CLOCK_GATE_HIGH_mem_v3_29 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_28_ SNPS_CLOCK_GATE_HIGH_mem_v3_30 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_29_ SNPS_CLOCK_GATE_HIGH_mem_v3_31 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_20_ SNPS_CLOCK_GATE_HIGH_mem_v3_54 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_21_ SNPS_CLOCK_GATE_HIGH_mem_v3_55 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_22_ SNPS_CLOCK_GATE_HIGH_mem_v3_56 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_23_ SNPS_CLOCK_GATE_HIGH_mem_v3_57 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_24_ SNPS_CLOCK_GATE_HIGH_mem_v3_58 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_25_ SNPS_CLOCK_GATE_HIGH_mem_v3_59 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_26_ SNPS_CLOCK_GATE_HIGH_mem_v3_60 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_27_ SNPS_CLOCK_GATE_HIGH_mem_v3_61 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_28_ SNPS_CLOCK_GATE_HIGH_mem_v3_62 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_29_ SNPS_CLOCK_GATE_HIGH_mem_v3_63 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_30_ SNPS_CLOCK_GATE_HIGH_mem_v3_32 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_31_ SNPS_CLOCK_GATE_HIGH_mem_v3_33 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_30_ SNPS_CLOCK_GATE_HIGH_mem_v3_64 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_31_ SNPS_CLOCK_GATE_HIGH_mem_v3_0 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_0_ SNPS_CLOCK_GATE_HIGH_mem_v3_34 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_1_ SNPS_CLOCK_GATE_HIGH_mem_v3_35 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_2_ SNPS_CLOCK_GATE_HIGH_mem_v3_36 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_10_ SNPS_CLOCK_GATE_HIGH_mem_v3_12 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_3_ SNPS_CLOCK_GATE_HIGH_mem_v3_37 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_11_ SNPS_CLOCK_GATE_HIGH_mem_v3_13 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_4_ SNPS_CLOCK_GATE_HIGH_mem_v3_38 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_12_ SNPS_CLOCK_GATE_HIGH_mem_v3_14 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_5_ SNPS_CLOCK_GATE_HIGH_mem_v3_39 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_13_ SNPS_CLOCK_GATE_HIGH_mem_v3_15 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_6_ SNPS_CLOCK_GATE_HIGH_mem_v3_40 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_14_ SNPS_CLOCK_GATE_HIGH_mem_v3_16 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_7_ SNPS_CLOCK_GATE_HIGH_mem_v3_41 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_15_ SNPS_CLOCK_GATE_HIGH_mem_v3_17 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_8_ SNPS_CLOCK_GATE_HIGH_mem_v3_42 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_16_ SNPS_CLOCK_GATE_HIGH_mem_v3_18 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_9_ SNPS_CLOCK_GATE_HIGH_mem_v3_43 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_17_ SNPS_CLOCK_GATE_HIGH_mem_v3_19 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_18_ SNPS_CLOCK_GATE_HIGH_mem_v3_20 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_0_ SNPS_CLOCK_GATE_HIGH_mem_v3_2 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_19_ SNPS_CLOCK_GATE_HIGH_mem_v3_21 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_index_max_derivative_reg SNPS_CLOCK_GATE_HIGH_mem_v3_1 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_1_ SNPS_CLOCK_GATE_HIGH_mem_v3_3 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_2_ SNPS_CLOCK_GATE_HIGH_mem_v3_4 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_3_ SNPS_CLOCK_GATE_HIGH_mem_v3_5 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_4_ SNPS_CLOCK_GATE_HIGH_mem_v3_6 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_5_ SNPS_CLOCK_GATE_HIGH_mem_v3_7 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_6_ SNPS_CLOCK_GATE_HIGH_mem_v3_8 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_7_ SNPS_CLOCK_GATE_HIGH_mem_v3_9 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_10_ SNPS_CLOCK_GATE_HIGH_mem_v3_44 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_8_ SNPS_CLOCK_GATE_HIGH_mem_v3_10 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_11_ SNPS_CLOCK_GATE_HIGH_mem_v3_45 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory0_reg_9_ SNPS_CLOCK_GATE_HIGH_mem_v3_11 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_12_ SNPS_CLOCK_GATE_HIGH_mem_v3_46 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_13_ SNPS_CLOCK_GATE_HIGH_mem_v3_47 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_14_ SNPS_CLOCK_GATE_HIGH_mem_v3_48 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_15_ SNPS_CLOCK_GATE_HIGH_mem_v3_49 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_16_ SNPS_CLOCK_GATE_HIGH_mem_v3_50 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_17_ SNPS_CLOCK_GATE_HIGH_mem_v3_51 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_18_ SNPS_CLOCK_GATE_HIGH_mem_v3_52 ForQA saed32hvt_tt1p05v25c automatic-by-area
+MEM/clk_gate_memory1_reg_19_ SNPS_CLOCK_GATE_HIGH_mem_v3_53 ForQA saed32hvt_tt1p05v25c automatic-by-area
+BUFFERXN           buffer_xn    8000        saed32hvt_tt1p05v25c automatic-by-area
+derivative         derivative_v3 8000       saed32hvt_tt1p05v25c automatic-by-area
+derivative/clk_gate_max_index_reg SNPS_CLOCK_GATE_HIGH_derivative_v3_1 ForQA saed32hvt_tt1p05v25c automatic-by-area
+derivative/clk_gate_max_derivative_reg SNPS_CLOCK_GATE_HIGH_derivative_v3_0 ForQA saed32hvt_tt1p05v25c automatic-by-area
+systemcontrol      system_control_v2_bits_psi18 ForQA saed32hvt_tt1p05v25c automatic-by-area
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+                                      Switch   Int      Leak      Total
+Hierarchy                             Power    Power    Power     Power    %
+--------------------------------------------------------------------------------
+MAIN_v3                               2.97e-08 5.89e-08 8.63e-05  8.64e-05 100.0
+  counter1024 (up_counter)            2.48e-11 6.80e-11 5.10e-07  5.10e-07   0.6
+  statemthv1 (statem_threshold_bits_psi18_bits_sum_psi20) 1.49e-10 8.70e-10 2.46e-06 2.46e-06   2.9
+    clk_gate_sum_psi_reg (SNPS_CLOCK_GATE_HIGH_statem_threshold_bits_psi18_bits_sum_psi20) 1.63e-12 4.82e-12 3.48e-07 3.48e-07   0.4
+  NEOMODULE (neo_v2_bits_psi18)       8.24e-09 1.93e-08 4.59e-06  4.62e-06   5.3
+  MEM (mem_v3)                        1.39e-08 2.84e-08 7.06e-05  7.07e-05  81.8
+    clk_gate_memory0_reg_20_ (SNPS_CLOCK_GATE_HIGH_mem_v3_22) 8.31e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_21_ (SNPS_CLOCK_GATE_HIGH_mem_v3_23) 8.31e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_22_ (SNPS_CLOCK_GATE_HIGH_mem_v3_24) 7.05e-12 9.37e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_23_ (SNPS_CLOCK_GATE_HIGH_mem_v3_25) 7.69e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_24_ (SNPS_CLOCK_GATE_HIGH_mem_v3_26) 8.18e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_25_ (SNPS_CLOCK_GATE_HIGH_mem_v3_27) 9.29e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_26_ (SNPS_CLOCK_GATE_HIGH_mem_v3_28) 8.04e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_27_ (SNPS_CLOCK_GATE_HIGH_mem_v3_29) 8.26e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_28_ (SNPS_CLOCK_GATE_HIGH_mem_v3_30) 8.87e-12 9.67e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_29_ (SNPS_CLOCK_GATE_HIGH_mem_v3_31) 9.52e-12 9.35e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_20_ (SNPS_CLOCK_GATE_HIGH_mem_v3_54) 1.03e-12 9.88e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_21_ (SNPS_CLOCK_GATE_HIGH_mem_v3_55) 1.14e-11 9.76e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_22_ (SNPS_CLOCK_GATE_HIGH_mem_v3_56) 1.14e-11 9.79e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_23_ (SNPS_CLOCK_GATE_HIGH_mem_v3_57) 1.20e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_24_ (SNPS_CLOCK_GATE_HIGH_mem_v3_58) 1.13e-11 9.76e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_25_ (SNPS_CLOCK_GATE_HIGH_mem_v3_59) 1.16e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_26_ (SNPS_CLOCK_GATE_HIGH_mem_v3_60) 1.14e-11 9.79e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_27_ (SNPS_CLOCK_GATE_HIGH_mem_v3_61) 1.15e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_28_ (SNPS_CLOCK_GATE_HIGH_mem_v3_62) 9.87e-12 9.50e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_29_ (SNPS_CLOCK_GATE_HIGH_mem_v3_63) 1.14e-11 9.76e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_30_ (SNPS_CLOCK_GATE_HIGH_mem_v3_32) 9.29e-12 9.35e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_31_ (SNPS_CLOCK_GATE_HIGH_mem_v3_33) 1.05e-11 9.34e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_30_ (SNPS_CLOCK_GATE_HIGH_mem_v3_64) 9.86e-12 9.50e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_31_ (SNPS_CLOCK_GATE_HIGH_mem_v3_0) 1.11e-11 9.76e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_0_ (SNPS_CLOCK_GATE_HIGH_mem_v3_34) 1.64e-12 9.82e-11 1.34e-07 1.34e-07   0.2
+    clk_gate_memory1_reg_1_ (SNPS_CLOCK_GATE_HIGH_mem_v3_35) 1.29e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_2_ (SNPS_CLOCK_GATE_HIGH_mem_v3_36) 1.16e-11 9.38e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_10_ (SNPS_CLOCK_GATE_HIGH_mem_v3_12) 1.77e-12 9.96e-11 1.34e-07 1.34e-07   0.2
+    clk_gate_memory1_reg_3_ (SNPS_CLOCK_GATE_HIGH_mem_v3_37) 1.22e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_11_ (SNPS_CLOCK_GATE_HIGH_mem_v3_13) 1.11e-11 9.64e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_4_ (SNPS_CLOCK_GATE_HIGH_mem_v3_38) 1.10e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_12_ (SNPS_CLOCK_GATE_HIGH_mem_v3_14) 9.89e-12 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_5_ (SNPS_CLOCK_GATE_HIGH_mem_v3_39) 1.08e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_13_ (SNPS_CLOCK_GATE_HIGH_mem_v3_15) 9.99e-12 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_6_ (SNPS_CLOCK_GATE_HIGH_mem_v3_40) 1.25e-11 9.83e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_14_ (SNPS_CLOCK_GATE_HIGH_mem_v3_16) 9.85e-12 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_7_ (SNPS_CLOCK_GATE_HIGH_mem_v3_41) 1.12e-11 9.83e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_15_ (SNPS_CLOCK_GATE_HIGH_mem_v3_17) 1.07e-11 9.64e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_8_ (SNPS_CLOCK_GATE_HIGH_mem_v3_42) 1.11e-11 9.37e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_16_ (SNPS_CLOCK_GATE_HIGH_mem_v3_18) 8.53e-12 9.37e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_9_ (SNPS_CLOCK_GATE_HIGH_mem_v3_43) 1.19e-11 9.83e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_17_ (SNPS_CLOCK_GATE_HIGH_mem_v3_19) 9.49e-12 9.35e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_18_ (SNPS_CLOCK_GATE_HIGH_mem_v3_20) 9.37e-12 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_0_ (SNPS_CLOCK_GATE_HIGH_mem_v3_2) 1.19e-11 9.66e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_19_ (SNPS_CLOCK_GATE_HIGH_mem_v3_21) 1.02e-11 9.35e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_index_max_derivative_reg (SNPS_CLOCK_GATE_HIGH_mem_v3_1) 2.43e-10 4.04e-10 3.12e-07 3.13e-07   0.4
+    clk_gate_memory0_reg_1_ (SNPS_CLOCK_GATE_HIGH_mem_v3_3) 1.25e-11 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_2_ (SNPS_CLOCK_GATE_HIGH_mem_v3_4) 1.28e-11 9.66e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_3_ (SNPS_CLOCK_GATE_HIGH_mem_v3_5) 1.17e-11 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_4_ (SNPS_CLOCK_GATE_HIGH_mem_v3_6) 1.21e-11 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_5_ (SNPS_CLOCK_GATE_HIGH_mem_v3_7) 1.22e-11 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_6_ (SNPS_CLOCK_GATE_HIGH_mem_v3_8) 1.08e-11 9.65e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_7_ (SNPS_CLOCK_GATE_HIGH_mem_v3_9) 1.20e-11 9.64e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_10_ (SNPS_CLOCK_GATE_HIGH_mem_v3_44) 1.23e-11 9.81e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_8_ (SNPS_CLOCK_GATE_HIGH_mem_v3_10) 1.23e-11 9.64e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_11_ (SNPS_CLOCK_GATE_HIGH_mem_v3_45) 1.27e-11 9.74e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory0_reg_9_ (SNPS_CLOCK_GATE_HIGH_mem_v3_11) 1.15e-11 9.64e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_12_ (SNPS_CLOCK_GATE_HIGH_mem_v3_46) 1.09e-11 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_13_ (SNPS_CLOCK_GATE_HIGH_mem_v3_47) 1.07e-11 9.35e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_14_ (SNPS_CLOCK_GATE_HIGH_mem_v3_48) 1.13e-11 9.47e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_15_ (SNPS_CLOCK_GATE_HIGH_mem_v3_49) 1.17e-11 9.36e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_16_ (SNPS_CLOCK_GATE_HIGH_mem_v3_50) 1.03e-11 9.38e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_17_ (SNPS_CLOCK_GATE_HIGH_mem_v3_51) 1.16e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_18_ (SNPS_CLOCK_GATE_HIGH_mem_v3_52) 9.87e-12 9.51e-11 3.51e-07 3.51e-07   0.4
+    clk_gate_memory1_reg_19_ (SNPS_CLOCK_GATE_HIGH_mem_v3_53) 1.12e-11 9.84e-11 3.51e-07 3.51e-07   0.4
+  BUFFERXN (buffer_xn)                2.50e-09 5.04e-09 1.69e-06  1.70e-06   2.0
+  derivative (derivative_v3)          1.15e-10 2.54e-10 2.35e-06  2.35e-06   2.7
+    clk_gate_max_index_reg (SNPS_CLOCK_GATE_HIGH_derivative_v3_1) 5.10e-12 1.32e-11 3.42e-07 3.42e-07   0.4
+    clk_gate_max_derivative_reg (SNPS_CLOCK_GATE_HIGH_derivative_v3_0) 7.20e-12 1.28e-11 3.42e-07 3.42e-07   0.4
+  systemcontrol (system_control_v2_bits_psi18) 2.76e-10 1.03e-09 4.39e-07 4.40e-07   0.5
+1
